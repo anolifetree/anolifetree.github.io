@@ -1,0 +1,27 @@
+.photo {
+    padding: 100px 0;
+    background: linear-gradient(90deg, transparent 70%, #d7fdb2 30%);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 45px;
+    }
+    &__item {
+        width: 30%;
+        margin-bottom: 60px;
+    }
+    &__img {
+        width: 100%
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+        color: #14292B;
+        margin-top: 15px;
+
+    }
+}
