@@ -1,0 +1,31 @@
+.about {
+    padding: 100px 0;
+    background: linear-gradient(90deg, transparent 70%, #d7fdb2 30%);
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        align-items: center;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: #14292B;
+        margin-right: 90px;
+        max-width: 45%;
+        span {
+            text-align: right;
+            font-style: italic;
+            display: block;
+        }
+    }
+    
+        &__img {
+            width: 40%;
+            img {
+                width: 100%;
+            }
+        }
+   
+}
