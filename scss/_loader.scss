@@ -1,0 +1,30 @@
+.logo {
+    &__image {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        display: block;
+        transform: translate(-50%, -50%);
+        transition: all 2s ease-in-out;
+        animation: logo 2s linear forwards;
+    }
+}
+@keyframes logo {
+    from {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        display: block;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        position: inherit;
+        display: inline;
+        transform: translate(0, 0);
+
+    }
+}

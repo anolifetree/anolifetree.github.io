@@ -37,9 +37,10 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 273px;
-    img {
+    &__img {
         margin-right: 17px;
-        width: 100%;
+        width: 100px;
+        position: relative;
     }
     &__name {
         &_1 {
