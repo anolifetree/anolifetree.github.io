@@ -62,6 +62,9 @@ header {
 .promo {
     background: url(../img/bg-min.png) no-repeat center;
     background-size: cover;
+    @media (min-resolution: 2dppx) {
+        background-image: url("../img/bg-2x.png");
+      }
     height: 100vh;
     min-height: 485px;
     .container {
